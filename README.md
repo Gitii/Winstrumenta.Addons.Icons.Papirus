@@ -3,6 +3,10 @@
 [Winstrumenta](https://github.com/Gitii/Winstrumenta). `Winstrumenta` is a collection of utility programs for `WSL` and `WSA`.
 This repository contains the source code for creating and uploading the optional package. When installed, `Package Manager` will display matching icons for the selected packages.
 
+## Icons
+The icons are copied from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) at build time. Papirus is a free and open source SVG icon theme for Linux. 
+Papirus icon theme is free and open source project distributed under the terms of the GNU General Public License, version 3.
+
 ## How does icon themes work in Winstrumenta?
 Icon themes consist of two main files:
 * `icons.zip`
