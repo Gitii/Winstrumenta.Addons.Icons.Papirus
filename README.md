@@ -19,7 +19,7 @@ Using a mapping file and archive is done to save bandwidth. A lot of keys point 
 By dereferencing the mapping (duplicating the icons in order to achive a 1:1 mapping between keys and icons), this could be simplified to a simple `File.OpenRead($"{lookupKey}.svg")`.
 
 Both files are packed in a `msix` package and is installed by the user if desired.
-At runtime `Windows` will mount the contents of the package (both files) in the `VFS` of `Winstrumenta`. `Winstrumenta` will then detect the package and read the files using the default `IO api` of `UWP`.
+At runtime `Windows` will mount the contents of the package (both files) in the `VFS` of `Winstrumenta`. `Winstrumenta` will then detect the package and read the files using the [`Windows.Storage api`](https://docs.microsoft.com/en-us/uwp/api/windows.storage?view=winrt-22000) of `UWP`.
 
 ## License
 The content of this repository is free and open-source project distributed under the terms of the GNU General Public License, version 3. See the [`LICENSE`](./LICENSE) file for details. 
