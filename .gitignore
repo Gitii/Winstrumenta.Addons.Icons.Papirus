@@ -1,4 +1,7 @@
 Package/Assets/*
+Package/AppxManifest.xml
+Package/LICENSE
+Package/README.md
 *.zip
 *.csv
 *.msix
